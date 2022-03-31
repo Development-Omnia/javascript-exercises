@@ -1,4 +1,9 @@
-const removeFromArray = function() {
+const removeFromArray = function(array, toRem) {
+
+        
+
+    cleanedUp = array.splice(toRem-1,1)
+    return array
 
 };
 
